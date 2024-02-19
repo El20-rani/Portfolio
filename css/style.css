@@ -74,6 +74,15 @@ p {
   padding: 18px 36px;
 }
 
+footer {
+  text-align: center;
+}
+
+.contact p {
+  font-family: var(--default-font);
+  font-size: 700;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 15px;

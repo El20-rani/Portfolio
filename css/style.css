@@ -42,6 +42,24 @@ p {
   color: var(--main-color);
 }
 
+.about {
+  padding: 120px 15px;
+}
+
+.about h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.about h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
+.about-content {
+  margin: 30px;
+}
+
 .hero .btn-brand {
   background-color: #6c63ff;
   color: white;
@@ -49,6 +67,15 @@ p {
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 36px;
+}
+
+.about .btn-brand {
+  background-color: #6c63ff;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .container .description {
@@ -87,8 +114,9 @@ footer {
   .hero {
     padding: 60px 15px;
   }
-  .hero h1 {
+  h1 {
     font-size: 42px;
+    line-height: 56px;
   }
 
   .container .description h2 {
@@ -98,5 +126,10 @@ footer {
   .container .description {
     padding: 0;
     text-align: center;
+  }
+
+  .about {
+    text-align: center;
+    padding: 0;
   }
 }

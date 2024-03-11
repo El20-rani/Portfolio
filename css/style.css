@@ -56,7 +56,7 @@ p {
   font-family: var(--default-font);
 }
 
-.about-content {
+.content-container {
   margin: 30px;
 }
 

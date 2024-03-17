@@ -42,21 +42,32 @@ p {
   color: var(--main-color);
 }
 
-.about {
+.content {
   padding: 120px 15px;
 }
 
-.about h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1;
 }
 
-.about h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font);
 }
 
-.content-container {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -69,13 +80,22 @@ p {
   padding: 18px 36px;
 }
 
-.about .btn-brand {
+.content-container .btn-brand {
   background-color: #6c63ff;
   color: white;
   font-weight: 500;
   font-size: 18px;
   border-radius: 4px;
   padding: 16px 32px;
+}
+.content-container .btn-brand-work {
+  background-color: #6c63ff;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  max-width: 50%;
 }
 
 .container .description {
@@ -128,7 +148,7 @@ footer {
     text-align: center;
   }
 
-  .about {
+  .content {
     text-align: center;
     padding: 0;
   }

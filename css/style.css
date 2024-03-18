@@ -26,6 +26,10 @@ p {
   border-radius: 50%;
 }
 
+img {
+  border-radius: 15px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -56,7 +60,7 @@ nav li.active a {
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 120px 15px;
+  padding: 30px 15px;
 }
 
 .hero p {
@@ -74,8 +78,8 @@ nav li.active a {
   color: var(--main-color);
 }
 
-.content {
-  padding: 120px 15px;
+.content-container {
+  padding: 30px 15px;
 }
 
 .content h1 {
@@ -159,7 +163,7 @@ footer .contact {
   border-radius: 15px;
 }
 
-footer h4 {
+footer h3 {
   font-size: 45px;
 }
 
@@ -235,7 +239,7 @@ footer .social-media a:hover {
     padding: 30px;
   }
 
-  footer .contact h4 {
+  footer .contact h3 {
     font-size: 25px;
   }
 
